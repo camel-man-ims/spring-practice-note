@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    include:
+      - infra-h2
+    active: local

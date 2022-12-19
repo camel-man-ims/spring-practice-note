@@ -1,5 +1,5 @@
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web")
+    api(project(":infra"))
 }
 
 tasks.getByName("bootJar"){

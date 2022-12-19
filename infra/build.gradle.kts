@@ -1,5 +1,6 @@
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("com.h2database:h2")
+    testImplementation("com.h2database:h2")
 }
 
 tasks.getByName("bootJar"){
