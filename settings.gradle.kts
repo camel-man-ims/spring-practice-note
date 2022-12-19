@@ -1,5 +1,5 @@
 rootProject.name = "practicenote"
 
-include("modulea")
-include("moduleb")
+include("domain")
+include("infra")
 include("api")

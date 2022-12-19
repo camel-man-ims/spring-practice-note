@@ -1,5 +1,4 @@
 dependencies {
-    implementation(project(":moduleb"))
     implementation("org.springframework.boot:spring-boot-starter-web")
 }
 
