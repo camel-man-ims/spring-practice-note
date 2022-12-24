@@ -1,5 +1,5 @@
 dependencies {
-    api(project(":infra"))
+    implementation(project(":infra"))
 }
 
 tasks.getByName("bootJar"){
