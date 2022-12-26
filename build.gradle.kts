@@ -6,9 +6,8 @@ plugins {
     id("io.spring.dependency-management") version "1.0.14.RELEASE" apply false
     kotlin("plugin.spring") version "1.6.21" apply false
 }
-
+val snippetspir by extra { file("build/generated-snippets") }
 java.sourceCompatibility = JavaVersion.VERSION_17
-
 allprojects{
     group = "com.example"
     version = "0.0.1-SNAPSHOT"
@@ -19,6 +18,7 @@ allprojects{
 }
 
 subprojects{
+
     apply(plugin = "org.jetbrains.kotlin.jvm")
     apply(plugin = "org.jetbrains.kotlin.plugin.spring")
     apply(plugin = "org.springframework.boot")
